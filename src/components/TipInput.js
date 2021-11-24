@@ -146,7 +146,7 @@ const TipInput = () => {
             id='custom'
             type='number'
             placeholder='Custom'
-            className='placeholder-secondary border-primary text-skin-primary text-right pr-2 font-bold  border-hover'
+            className='placeholder-secondary border-primary text-skin-primary text-right pr-2 font-bold  border-hover outline-none'
             onChange={tipSelectHandler}
             // onChange={customHandler}
           />

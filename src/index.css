@@ -70,24 +70,3 @@ input[type="number"] {
   border: 2px solid rgba(248, 113, 113) !important;
   border-radius: 6px;
 }
-
-/* Cyan Variations */
-
-.very-dark-cyan {
-  background-color: hsl(183, 100%, 15%);
-}
-.dark-gray-cyan1 {
-  color: hsl(186, 14%, 43%);
-}
-.dark-gray-cyan2 {
-  color: hsl(184, 14%, 56%);
-}
-.light-gray-cyan1 {
-  color: hsl(185, 41%, 84%);
-}
-.tip-key {
-  color: hsl(189, 41%, 97%);
-}
-.white {
-  color: hsl(0, 0%, 100%);
-}

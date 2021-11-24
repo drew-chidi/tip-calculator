@@ -3,7 +3,7 @@ import TipInput from "./components/TipInput";
 
 function App() {
   return (
-    <div className='bg-skin-main h-screen '>
+    <div className='bg-skin-main h-screen'>
       <Header />
       <TipInput />
     </div>
