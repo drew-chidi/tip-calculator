@@ -9,7 +9,6 @@ const TipInput = () => {
   const [custom, setCustom] = useState("");
   const [name, setName] = useState("");
   const [blur, setBlur] = useState(false);
-  // const [activeTip, setActiveTip] = useState("0");
   const [persons, setPersons] = useState("");
   const [tipAmount, setTipAmount] = useState("0.00");
   const [total, setTotal] = useState("0.00");
@@ -27,10 +26,11 @@ const TipInput = () => {
     setTipAmount("0.00");
     setTotal("0.00");
     setBlur(false);
-    // setCustom("");
+    setName("");
+    setCustom("");
   };
-  //Tip Selector
 
+  //Tip Selector
   const tipSelectHandler = (e) => {
     if (e.target.id === "custom") {
       setTip(parseFloat(e.target.value / 100));
@@ -40,7 +40,6 @@ const TipInput = () => {
       setTip(() => parseFloat(e.target.value));
       setCustom("");
       setName(e.target.value);
-      console.log(tip);
     }
   };
 
